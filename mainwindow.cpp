@@ -23,9 +23,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::actualizarEscena(void)
 {
-    //particle->moverParticula(10, 500);
-    //particle->colisionParticula(500, 500);
-
     particle->moverParticula(dt, vertlim);
     particle->colisionParticula(horzlim, vertlim);
 }
